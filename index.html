@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Speed Reader</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -15,8 +14,13 @@
     <button id="go">Go</button><br />
 
     <label>Words per minute</label>
-    <input id="wpm" type="number" name="wpm" min="1" value="500"></input>
-    <textarea id="input-text" rows="5" cols ="60" name="input-text">This is a lot of text that will be easier to read with a speed reader. You do not have to move your eyes, you just have to read the word.</textarea>
+    <input id="wpm" type="number" name="wpm" min="1" value="400"></input>
+
+    <p id="read-time"></p>
+
+    <textarea id="input-text" rows="5" cols ="60" name="input-text">
+    This is a lot of text that will be easier to read with a speed reader. You do not have to move your eyes, you just have to read the word.
+    The default is 400 words per minute. It can be adjusted below. To use this, just copy and paste the text you want to read into the text field, and hit go.</textarea>
 
     <script src="script.js"></script>
 </body>

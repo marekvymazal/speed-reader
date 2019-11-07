@@ -16,6 +16,8 @@ h1 {
     font-size: 2rem;
     font-weight: 100;
     color: rgb(40,40,40);
+    margin: 40px;
+    letter-spacing: 2px;
 }
 
 textarea {
